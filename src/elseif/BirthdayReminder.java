@@ -14,18 +14,29 @@ public class BirthdayReminder {
 		String momsBirthday = "Feburary 16th";
 		String dadsBirthday = "June 9th";
 		String myBirthday = "August 16th";
-String sistersBirthday = "September 17th";
+
 		// 2. Find out which birthday the user wants and and store their response in a variable
-	
+	String Birthday = JOptionPane.showInputDialog("");
 		// 3. Print out what the user typed
 		
 		// 4. if user asked for "mom"
 			//print mom's birthday
+if (Birthday .equals("mom")) {
+	System.out.println(momsBirthday);
+}
 		// 5. if user asked for "dad"
 			// print dad's birthday
+else if (Birthday .equals("dad")) {
+	System.out.println(dadsBirthday);
+}
 		// 6. if user asked for your name
 			// print myBirthday
+else if (Birthday .equals("Walter")) {
+	System.out.println(myBirthday);
+}
 		//7. otherwise print "Sorry, i don't remember that person's birthday!"
-
+else {
+	System.out.println("I don't remember that person's birthday");
+}
 	} 
 }
