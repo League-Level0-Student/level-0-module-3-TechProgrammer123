@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	if (A .equals("No")) {
 		String A1 = JOptionPane.showInputDialog("Do you want to be happy?");
 if (A1 .equals("Yes")) {
-	JOptionPane.showMessageDialog(null, "Change something..");
+	JOptionPane.showMessageDialog(null, "Change something...");
 }
 		if (A1 .equals("No")) {
 			JOptionPane.showMessageDialog(null, "Keep doing whatever your doing.");

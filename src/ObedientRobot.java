@@ -5,7 +5,10 @@ import org.jointheleague.graphical.robot.Robot;
 public class ObedientRobot {
 	static Robot robot = new Robot();
 	public static void main(String[] args) {
-	String Color = JOptionPane.showInputDialog("What color do you want to use? Red, Green, or Blue");
+	for (int i = 0; i < 10; i++) {
+		
+	
+		String Color = JOptionPane.showInputDialog("What color do you want to use? Red, Green, or Blue");
 		if (Color .equals("Red")) {
 			robot.setPenColor(255, 0, 0);
 		}
@@ -26,7 +29,7 @@ public class ObedientRobot {
 	else if (shape .equals ("Circle")) {
 		drawCircle();
 	}
-	
+	}
 }
 static void drawSquare() {
 	robot.penDown();
